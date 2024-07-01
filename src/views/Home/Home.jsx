@@ -1,5 +1,6 @@
 import "./Home.css"
-
+import "./../../components/ToDoCard/ToDoCard"
+import ToDoCard from './../../components/ToDoCard/ToDoCard'
 import { useState } from 'react';
 import React, { useEffect } from 'react'
 import toast, { Toaster } from 'react-hot-toast'
