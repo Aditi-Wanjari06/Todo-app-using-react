@@ -97,8 +97,9 @@ function Home() {
                             toast.error("OOPS!! Task cannot be added...")
                             return
                         }
-                        if (category === "") {
+                        else if (category === "") {
                             toast.error("Please select a category...")
+                            return
                         }
 
                         setTodoList([...todoList, { task: newTask, category: category }])
